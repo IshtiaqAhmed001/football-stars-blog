@@ -21,7 +21,7 @@ a{
 }
 /* header styles start here */
 header{
-    
+    width: 100%;
     background-color: #2D25A0;
     height: 677px; 
     color: #FFFFFF; 
