@@ -102,6 +102,7 @@ nav .links{
     animation: rotation 2s infinite linear;
 
 }
+/* animation for ball */
 .rotate {
     animation: rotation 2s infinite linear;
   }
@@ -207,8 +208,8 @@ nav .links{
     background-color:rgba(247, 217, 205, 0.652) ; 
 }
 
-.fifth-page a{
-    color: red;
+.fifth-page a, .fifth-page h1{
+    color: rgb(214, 28, 28);
 }
 .news img{
     width: 150px;
