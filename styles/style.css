@@ -7,12 +7,12 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 main{
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
 }
 .container{
     width: 1440px;
+    height: 100%;
 }
 a{
     text-decoration: none;
@@ -160,12 +160,15 @@ nav .links{
     margin-right: 156px;
 }
 .half-page .inside-highlights{
-  
    width: 469;
    height: 309;
    margin-top: 59px;
    margin-bottom: 59px;
    margin-right: 66px;
+}
+.inside-highlights{
+    display: flex;
+    flex-direction: column;
 }
 .highlights-brief{
     color: #6C6C6C;
@@ -186,8 +189,10 @@ nav .links{
     width: 567px;
     height: 427px;
 }
+
   /* fourth page styles */
 .fourth-page{
+
     padding: 10px 20px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.10);
     background-color:rgba(237, 245, 250, 0.809) ;
@@ -196,12 +201,12 @@ nav .links{
 .fifth-page{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding: 10px 20px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.10);
     background-color:rgba(247, 217, 205, 0.652) ; 
 }
+
 .fifth-page a{
     color: red;
 }
@@ -225,8 +230,8 @@ footer{
       margin-top: 158px;
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
+      
 }
 footer .logo, .icons{
     margin-bottom: 20px;
@@ -254,6 +259,22 @@ footer a{
    .players{
        grid-template-columns: repeat(1, 1fr);
    }
+   .full-page{
+       flex-direction: column;
+   }
+   .inside-highlights{
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+   }
    
+   .latest-news{
+       grid-template-columns: repeat(1,1fr);
+   }
+    footer{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    }
 }
 
