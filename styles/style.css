@@ -3,7 +3,6 @@
 
 /* common styles */
 body{
-    width: 1440px;
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
@@ -11,6 +10,9 @@ main{
     display: flex;
     flex-direction: column;
     /* align-items: center; */
+}
+.container{
+    width: 1440px;
 }
 a{
     text-decoration: none;
@@ -238,5 +240,20 @@ footer a{
     background-color: lightgray;
     padding: 10px;
     border-radius: 50%;
+    margin-left: 10px;
+}
+/* responsive styles */
+
+/* mobile devices */
+
+
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+   .players{
+       grid-template-columns: repeat(1, 1fr);
+   }
+   
 }
 
