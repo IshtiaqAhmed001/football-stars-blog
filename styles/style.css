@@ -87,6 +87,9 @@ nav .links{
     padding: 10px 24px;
     color: #FFFFFF;
 }
+.button:hover {
+    background-color: #3e8e41;
+}
 .button-div{
     margin-top: 27px;
 }
@@ -111,7 +114,7 @@ nav .links{
   /* header styles end here */
 
   /* Iconic players style */
-.second-page{
+.second-page ,.fifth-page{
     margin-top: 70px;
     width: 1050px;
     margin-left: 180px;
@@ -132,11 +135,11 @@ nav .links{
     padding: 16px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   }
-  .player-name{
+  .player-name, .news-title{
       margin: 0;
       height: 40px;
       width: 300px;
-      size: 28px;
+      font-size: 28px;
       font-weight: 700;
   }
   .player-story{
@@ -147,7 +150,7 @@ nav .links{
   }
 
   /* highlights section styles */
-  .third-page, .fourth-page{
+  .third-page, .fourth-page, .fifth-page{
     width: 1102px;
     height: 427px;
     margin-top: 165px;
@@ -177,12 +180,40 @@ nav .links{
     line-height: 60px;
     margin: 0;
 }
-  .half-page .match{
+.half-page .match{
     width: 567px;
     height: 427px;
-  }
+}
   /* fourth page styles */
 .fourth-page{
-    padding: 10px;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.10);
+    background-color:rgba(237, 245, 250, 0.809) ;
 }
+/* fifth-page/news page styles */
+.fifth-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.10);
+    background-color:rgba(247, 217, 205, 0.652) ; 
+}
+.fifth-page a{
+    color: red;
+}
+.news img{
+    width: 150px;
+    height: 128px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+  }
+  .latest-news{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 45px;  
+  }
