@@ -12,7 +12,6 @@ main{
 }
 .container{
     width: 1440px;
-    height: 100%;
 }
 a{
     text-decoration: none;
@@ -22,6 +21,7 @@ a{
 }
 /* header styles start here */
 header{
+    
     background-color: #2D25A0;
     height: 677px; 
     color: #FFFFFF; 
