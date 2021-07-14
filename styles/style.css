@@ -210,10 +210,33 @@ nav .links{
     margin-right: 10px;
     margin-bottom: 10px;
     float: left;
-  }
-  .latest-news{
+}
+.latest-news{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 30px;
     grid-row-gap: 45px;  
-  }
+}
+
+  /* footer styles */
+footer{
+      margin-top: 158px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+footer .logo, .icons{
+    margin-bottom: 20px;
+}
+footer img{
+    width: 483.87px;
+    height: 110px; 
+}
+footer a{
+    color: Gray;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 50%;
+}
+
